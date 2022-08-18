@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <!-- <link rel="stylesheet" href="../vendor/pico.min.css"> -->
+    <link rel="stylesheet" href="../vendor/picnic.purged.css">
+  </head>
+  <body>
+
+    <div class="wrapper" style="min-width: 320px; min-height: 480px; padding: 10px;">
+      <div>
+        <h4>Netscape-bookmarks loader</h4>
+
+        <input
+          type="text"
+          id="bookmarkletLink"
+          placeholder="https://..."
+          value="https://cristianofromagio.github.io/bookmarklets/"/>
+
+        <button class="block w-100" id="fetchContent">Fetch</button>
+
+        <div id="listContainer">
+          <ul id="list"></ul>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="../vendor/bliss.min.js"></script>
+    <script src="../vendor/browser-polyfill.min.js"></script>
+    <script src="content.js"></script>
+  </body>
+</html>

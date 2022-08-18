@@ -1,0 +1,16 @@
+{
+    "extensionName": {
+        "message": "Remote Netscape-bookmark loader",
+        "description": "Extension name"
+    },
+
+    "extensionDescription": {
+        "message": "Load and parse remote Netscape-bookmark formatted file",
+        "description": "Extension description"
+    },
+
+    "extensionTitle": {
+        "message": "Remote Netscape-bookmark loader",
+        "description": "Extension action title"
+    }
+}
