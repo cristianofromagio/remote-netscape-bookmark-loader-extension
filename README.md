@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./icons/icon-128.png"/>
+  <img src="./icons/icon128.png"/>
 </p>
 
 # Remote Netscape-bookmark loader
